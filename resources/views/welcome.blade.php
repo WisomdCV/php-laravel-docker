@@ -52,9 +52,9 @@
         <div class="flex items-center justify-center w-full transition-opacity opacity-100 duration-750 lg:grow starting:opacity-0">
             <main class="flex max-w-[335px] w-full flex-col-reverse lg:max-w-4xl lg:flex-row">
                 <div class="text-[13px] leading-[20px] flex-1 p-6 pb-12 lg:p-20 bg-white dark:bg-[#161615] dark:text-[#EDEDEC] shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d] rounded-bl-lg rounded-br-lg lg:rounded-tl-lg lg:rounded-br-none">
-                    <h1 class="text-4xl mb-4 font-medium text-[#F53003] dark:text-[#FF4433]">Hola Mundo de Wilson Del Carpio</h1>
-                    <h2 class="text-2xl mb-4 text-[#F53003] dark:text-[#FF4433]">Desde Laravel 12</h2>
-                    <h2 class="text-xl mb-6 text-[#F53003] dark:text-[#FF4433]">Nada es imposible CAUSAS!</h2>
+                    <h1 class="text-6xl mb-8 font-bold text-[#F53003] dark:text-[#FF4433] tracking-tight">Hola Mundo de Wilson Del Carpio</h1>
+                    <h2 class="text-4xl mb-6 font-semibold text-[#F53003] dark:text-[#FF4433] tracking-wide">Desde Laravel 12</h2>
+                    <h2 class="text-3xl mb-10 font-medium text-[#F53003] dark:text-[#FF4433] tracking-wide">¡Nada es imposible CAUSAS!</h2>
                     <h3 class="mb-1 font-medium">Let's get started</h3>
                     <p class="mb-2 text-[#706f6c] dark:text-[#A1A09A]">Laravel has an incredibly rich ecosystem. <br>We suggest starting with the following.</p>
                     <ul class="flex flex-col mb-4 lg:mb-6">
