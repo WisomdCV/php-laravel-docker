@@ -20,6 +20,14 @@
         @endif
     </head>
     <body class="bg-[#FDFDFC] dark:bg-[#0a0a0a] text-[#1b1b18] flex p-6 lg:p-8 items-center lg:justify-center min-h-screen flex-col">
+        <div class="w-full text-center mb-8">
+            <h1 class="text-7xl font-extrabold text-[#F53003] dark:text-[#FF4433] tracking-tight leading-none mb-4">
+                Hola Mundo de Wilson Del Carpio
+            </h1>
+            <h2 class="text-4xl font-bold text-[#F53003] dark:text-[#FF4433] tracking-wide">
+                desde Laravel 12!
+            </h2>
+        </div>
         <header class="w-full lg:max-w-4xl max-w-[335px] text-sm mb-6 not-has-[nav]:hidden">
             @if (Route::has('login'))
                 <nav class="flex items-center justify-end gap-4">
