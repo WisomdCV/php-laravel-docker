@@ -17,8 +17,8 @@ ENV LOG_CHANNEL stderr
 # Allow composer to run as root
 ENV COMPOSER_ALLOW_SUPERUSER 1
 
-# Install Node.js and npm (if not already included in the base image)
-RUN apt-get update && apt-get install -y nodejs npm
+# Install Node.js and npm (using apk for Alpine-based images)
+RUN apk add --no-cache nodejs npm
 
 # Run Laravel and npm commands
 CMD php artisan breeze:install blade && \
