@@ -20,6 +20,9 @@ ENV COMPOSER_ALLOW_SUPERUSER 1
 # Install Node.js and npm (using apk for Alpine-based images)
 RUN apk add --no-cache nodejs npm
 
+# Install Composer dependencies
+RUN php composer.phar install --no-dev --optimize-autoloader
+
 # Run Laravel and npm commands
 CMD php artisan breeze:install blade && \
     npm install && \
