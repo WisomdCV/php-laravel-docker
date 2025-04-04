@@ -17,4 +17,12 @@ ENV LOG_CHANNEL stderr
 # Allow composer to run as root
 ENV COMPOSER_ALLOW_SUPERUSER 1
 
-CMD php artisan migrate && /start.sh
+# Install Node.js and npm (if not already included in the base image)
+RUN apt-get update && apt-get install -y nodejs npm
+
+# Run Laravel and npm commands
+CMD php artisan breeze:install blade && \
+    npm install && \
+    npm run dev && \
+    php artisan migrate && \
+    /start.sh
